@@ -18,12 +18,12 @@ function ErrorPage() {
   }
 
   return (
-    <p>
+    <>
       <MainNavigation />
       <PageContent title={title}>
         <p>{message}</p>
       </PageContent>
-    </p>
+    </>
   );
 }
 
