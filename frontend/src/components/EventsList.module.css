@@ -19,6 +19,7 @@
 }
 
 .item a:hover {
+  transition: 300ms linear;
   transform: scale(1.02);
   background-color: var(--color-gray-700);
 }
